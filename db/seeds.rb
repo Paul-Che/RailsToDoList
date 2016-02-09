@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+coiffeur = Task.new(name: "Coiffeur", content: "Allez chez le coiffeur dans la semaine")
+coiffeur.save
